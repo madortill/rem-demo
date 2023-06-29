@@ -1,0 +1,38 @@
+html {
+    font-size: calc(16px + 3vw);
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    margin: 0;
+}
+
+div {
+    display: inline-block;
+    position: fixed;
+}
+
+.px {
+    width: 200px;
+    height: 200px;
+    background-color: pink;
+    font-size: 16px;
+
+}
+
+.rem {
+    width: 5rem;
+    height: 5rem;
+    background-color: lightcoral;
+    font-size: 0.5rem;
+    left: 240px;
+}
+
+.vw {
+    width: 15vw;
+    height: 15vw;
+    background-color: rgb(238, 154, 235);
+    font-size: 3vw;
+    left: 470px;
+}
