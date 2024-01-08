@@ -1,5 +1,5 @@
 html {
-    font-size: calc(16px + 3vw);
+    font-size: calc(16px + 0.5vw);
     height: 100%;
 }
 
@@ -25,7 +25,7 @@ div {
     width: 5rem;
     height: 5rem;
     background-color: lightcoral;
-    font-size: 0.5rem;
+    font-size: 1rem;
     left: 240px;
 }
 
@@ -33,6 +33,26 @@ div {
     width: 15vw;
     height: 15vw;
     background-color: rgb(238, 154, 235);
-    font-size: 3vw;
-    left: 470px;
+    font-size: 2vw;
+    left: 670px;
 }
+
+.em {
+    background-color: lightsalmon;
+    width: 5rem;
+    height: 5rem;
+    font-size: 1.5rem;
+}
+
+/* .em-father {
+    width: 300px;
+    height: 300px;
+    background-color: orange;
+}
+
+.em-child {
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+    font-size: 2em;
+} */
